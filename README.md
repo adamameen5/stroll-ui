@@ -41,7 +41,8 @@ Follow these steps to set up and run the frontend development server:
 
 For any questions or issues, feel free to contact Adam Ameen.
 
----------------------- What could have been done with a bit more time -------------------
+## ⌚ What could have been done with a bit more time 
+
 1. I would add form validations for a field like email.
 2. Show user friendly error messages.
 3. Show a success toast message after adding creating a Patient record or Prescription record.
