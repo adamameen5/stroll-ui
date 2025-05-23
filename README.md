@@ -1,15 +1,42 @@
-This repository is the front end react app for the Stroll Technical Assesment done by Adam Ameen.
+# Stroll Technical Assessment - Frontend
 
-Please follow the below instructions to setup and run the dev server.
+This repository contains the frontend React application for the Stroll Technical Assessment, developed by Adam Ameen.
 
-In the project directory, you can run:
+## Setup and Running the Development Server
 
-### `npm start`
+Follow these steps to set up and run the frontend development server:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Download and Extract**  
+   - Download the zip file of this repository.  
+   - Extract the folder to your desired location.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Open the Project**  
+   - Open the extracted folder in Visual Studio Code.
 
-### `npm test`
+3. **Install Dependencies**  
+   - Open a terminal in Visual Studio Code and run the following command to install all necessary libraries and packages:  
+     ```bash
+     npm install
+     ```
+   - If the above command fails, try:  
+     ```bash
+     npm install --legacy-peer-deps
+     ```
+
+4. **Set Up the Backend API**  
+   - This frontend requires the backend API to function. Clone and set up the backend project from the following repository:  
+     [Stroll Backend Repository](https://github.com/adamameen5/stroll-backend)  
+   - Follow the instructions in the backend repository's README file to set it up.  
+   - Ensure the `API_BASE_URL` is correctly configured in the frontend project after setting up the backend.
+
+5. **Start the Frontend Server**  
+   - Once the backend is set up and the `API_BASE_URL` is configured, start the frontend development server by running:  
+     ```bash
+     npm start
+     ```
+
+## Notes
+- Ensure the backend server is running before starting the frontend server.
+- If you encounter any issues, double-check the backend setup and the `API_BASE_URL` configuration.
+
+For any questions or issues, feel free to contact Adam Ameen.
