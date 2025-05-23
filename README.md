@@ -40,3 +40,13 @@ Follow these steps to set up and run the frontend development server:
 - If you encounter any issues, double-check the backend setup and the `API_BASE_URL` configuration.
 
 For any questions or issues, feel free to contact Adam Ameen.
+
+---------------------- What could have been done with a bit more time -------------------
+1. I would add form validations for a field like email.
+2. Show user friendly error messages.
+3. Show a success toast message after adding creating a Patient record or Prescription record.
+4. Show the records in a table using pagination, adding search criteria and sorting.
+5. Add a drop down to select the patient instead of entering the name manually.
+6. Polish the look a little bit and all loading animations.
+
+I think these small changes would make the front end look nicer and easier to use in users point of view.
