@@ -1,4 +1,4 @@
-export const API_BASE_URL = "https://localhost:44322/api";
+export const API_BASE_URL = "https://localhost:4432/api";
 
 export async function getPrescriptions() {
   const res = await fetch(`${API_BASE_URL}/prescriptions`);

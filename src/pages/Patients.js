@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../api';
 
 export default function Patients() {
   const [patients, setPatients] = useState([]);
@@ -6,7 +7,7 @@ export default function Patients() {
   const [patientEmail, setPatientEmail] = useState('');
 
   useEffect(() => {
-    fetch('https://localhost:44322/api/patients')
+    fetch(`${API_BASE_URL}/patients`)
       .then(res => res.json())
       .then(data => setPatients(data));
   }, []);
@@ -19,7 +20,7 @@ export default function Patients() {
       email : patientEmail
     };
 
-    const res = await fetch('https://localhost:44322/api/patients', {
+    const res = await fetch(`${API_BASE_URL}/patients`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newPatient)

@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
+import { API_BASE_URL } from '../api';
 
 export default function Results() {
   const [results, setResults] = useState([]);
 
   useEffect(() => {
-    fetch('https://localhost:44322/api/sessions')
+    fetch(`${API_BASE_URL}/sessions`)
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch results');
         return res.json();
