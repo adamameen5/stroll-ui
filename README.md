@@ -43,12 +43,13 @@ For any questions or issues, feel free to contact Adam Ameen.
 
 ## ⌚ What could have been done with a bit more time 
 
-1. I would add form validations for a field like email.
-2. Show user friendly error messages.
-3. I have made addPrescription method as a method in the api.js file. This will allow me to reuse the same method and call this method in multiple places. I would do the same for all other API methods, such as GetPatients, AddPatient, GetPrescriptions.
-4. Show a success toast message after adding creating a Patient record or Prescription record.
-5. Show the records in a table using pagination, adding search criteria and sorting.
-6. Add a drop down to select the patient instead of entering the name manually.
-7. Polish the look a little bit and all loading animations.
+1. I would use a UI library such as Material UI or shadcn.
+2. I would add form validations for a field like email.
+3. Show user friendly error messages.
+4. I have made addPrescription method as a method in the api.js file. This will allow me to reuse the same method and call this method in multiple places. I would do the same for all other API methods, such as GetPatients, AddPatient, GetPrescriptions.
+5. Show a success toast message after adding creating a Patient record or Prescription record.
+6. Show the records in a table using pagination, adding search criteria and sorting.
+7. Add a drop down to select the patient instead of entering the name manually.
+8. Polish the look a little bit and all loading animations.
 
 I think these small changes would make the front end look nicer and easier to use in users point of view.
